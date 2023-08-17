@@ -1,0 +1,1098 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#Header {
+    display: flex;
+    height: 13vh;  
+    background-color: #252E3D;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+#Logo-container {
+    height: 106px;
+    width: 33%;
+}
+
+.Welcome {
+    width: 33%;
+    text-align: center;
+    font-size: 1.4em;
+    color: white;
+    font-family: helvetica;
+}
+
+#Icon-container {
+    display: flex;
+    height: 106px;
+    width: 33%;
+    gap: 40px;
+    align-items: center;
+    justify-content: end;
+    margin-right: 21px;
+}
+.Logo {
+    max-height: 6.7vh;
+    max-width: 12.5vw;
+    margin-top: 26px;
+    margin-left: 21px;
+}
+
+.Favourite {
+    max-height: 4.5vh;
+    max-width: 2.9vw;
+    cursor: pointer;
+}
+
+.Profile {
+    max-height: 5.4vh;
+    max-width: 2.4vw;
+    cursor: pointer;
+}
+
+.Shopping-cart {
+    max-height: 7.7vh;
+    max-width: 4.1vw;
+    cursor: pointer;
+}
+
+#Hero-top:hover .Profile {
+    background-color: red;
+}
+#Hero-top {
+    height: 33vh;
+    background:linear-gradient(180deg, #C4D9DE 0%, #90E9F5 100%, #626D6F 100%) 0% 0%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Logo-text {
+    color:white;
+    font-family: helvetica;
+    text-align: center;
+}
+#Logo2 {
+    max-height: 8.8vh;
+    max-width: 17vw;
+}
+
+#Hero-quote {
+    font-size: 2.5em;
+    font-family: helvetica;
+    height: 0;
+    padding-bottom: 10px;
+}
+
+#Alexa {
+    max-width: 19vw;
+    max-height: 29.6vh;
+}
+#Quote-description {
+    color: white; 
+    font-family: helvetica;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#Hero-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 54vh;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#Searchbar {
+    position: relative;
+    margin-top: -16vh;
+    text-indent: 72px;
+    height: 10vh;
+    width: 61vw;
+    border-radius: 9px;
+    border: none;
+    box-shadow: inset 0px 7px 9px #00000029, 0px 7px 14px #C4D9DE;
+    font-size: 26px;
+}
+
+::placeholder {
+    color: #707070;
+}
+
+form {
+    display: flex;
+    height:auto;
+   
+}
+
+#Magnifying-glass {
+    position: relative;
+    top: -104px;
+    left: 60px;
+    z-index: 1;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background: transparent;
+    background-size:contain;
+    cursor: pointer;
+}
+
+#Microphone {
+    position: relative;
+    top: -104px;
+    left: -50px;
+    z-index: 1;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background: transparent;
+    background-size:contain;
+    cursor: pointer;
+}
+
+#Hero-quote2 {
+    font-size: 2.5em;
+    font-family: helvetica;
+    text-align: center;
+    height: 0;
+    padding-bottom: 20px;
+}
+
+#Quote-description2 {
+    margin: auto;
+    height: 60px;
+    width: 37vw;
+    text-align: center;
+    font-family: helvetica;
+}
+#Shopping {
+    background-color: #CF755A;
+    width: 14.6vw;
+    margin-bottom: 10px;
+    height: 5vh;
+    border: none;
+    color: white;
+    font-family: helvetica;
+    cursor: pointer;
+}
+
+.Trending {
+    height:119vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+
+.Trending2 {
+    height:119vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding-bottom: 8vh;
+}
+
+.Trending-Title {
+    font-family: helvetica;
+    font-size: 2.5em;
+    margin-top: 7vh;
+    padding-bottom: 3vh;
+    height: 0;
+
+}
+
+#Trending-description {
+    font-family: helvetica;
+    text-align: center;
+    color: #737373;
+    width: 37vw;
+    padding-bottom: 6vh;
+}
+
+#Trending-category-container {
+    height: 76vh;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    padding-bottom: 50px;
+}
+
+.Trending-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 76vh;
+    width: 32vw;
+    background-color: white;
+    border-radius: 53px;
+    box-shadow: 5px 29px 15px #00000029;
+}
+
+.Trending-subheading {
+    font-family: helvetica;
+    font-size: 1.7vw;
+}
+
+.Trending-category-image {
+    height: 60vh;
+    width: 90%;
+    object-fit:cover;
+    cursor: pointer;
+}
+
+#Circle-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    cursor: pointer;
+} 
+
+.circle {
+    height:1.5vw;
+    width: 1.5vw;
+    background: transparent linear-gradient(180deg, #252E3D 0%, #B3B7BA 100%);
+    opacity: 0.52;
+    border-radius: 50%;
+}
+
+.Active-circle {
+    height:1.5vw;
+    width: 1.5vw;
+    background: transparent linear-gradient(180deg, #252E3D 0%, #B3B7BA 100%);
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+#View-categories {
+    width: 18vw;
+    height: 10vh;
+    background-color: #F19E38;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: none;
+    visibility: hidden;
+}
+
+#Trending-description2 {
+    font-family: helvetica;
+    text-align: center;
+    color: #737373;
+    width: 37vw;
+    padding-bottom: 6vh;
+}
+
+#View-products {
+    width: 18vw;
+    height: 10vh;
+    background-color: #F19E38;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+}
+
+#Deals {
+    height: 161vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Deals-title {
+    margin-top: 7vh;
+    font-family: helvetica;
+    font-size: 2.5em;
+}
+
+#Deals-description {
+    font-family: helvetica;
+    text-align: center;
+    color: #737373;
+    width: 35vw;
+    padding-bottom: 6vh;
+}
+
+#Deals-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    width: 79vw;
+    height: 99vh;
+    gap: 1em;
+}
+
+#Item1-container {
+    width: 39vw;
+    height: 55vh;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    cursor: pointer;
+}
+
+#Item1 {
+    width: 39vw;
+    height: 46vh;
+    object-fit: cover;
+    border-radius: 52px;
+}
+
+#Item2-container {
+    width: 39vw;
+    height: 55vh;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    cursor: pointer;
+}
+
+#Item2 {
+    width: 39vw;
+    height: 46vh;
+    object-fit: cover;
+    border-radius: 52px;
+}
+
+#Item3-container {
+    width: 25vw;
+    height: 39vh;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    cursor: pointer;
+}
+
+#Item3 {
+    width: 25vw;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 52px;
+}
+
+#Item4-container {
+    width: 25vw;
+    height: 39vh;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    cursor: pointer;
+}
+
+#Item4 {
+    width: 25vw;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 52px;
+}
+
+#Item5-container{
+    width: 25vw;
+    height: 39vh;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    cursor: pointer;
+}
+
+#Item5 {
+    width: 25vw;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 52px;
+}
+
+.Item-title {
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 1.7vw;   
+}
+
+#Start-shopping {
+    background-color: #CF755A;
+    color: #FCFCFC;
+    font-size: 1.4em;
+    font-family: helvetica;
+    font-weight: bold;
+    height: 11vh;
+    width: 24vw;
+    border: none;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+#Spotlight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 124vh;
+    background: transparent linear-gradient(360deg, #252E3D 0%, #3B85DB 100%);
+}
+
+#Spotlight-title {
+    font-family: helvetica;
+    font-size: 2.5em;
+    margin-top: 7vh;
+    padding-bottom: 12vh;
+    height: 0;
+    color: white;
+}
+
+#Trailer {
+    width: 61vw;
+    height: 61vh;
+    object-fit: cover;
+}
+
+#Spotlight-description {
+    margin-top: 6vh;
+    font-family: helvetica;
+    text-align: center;
+    color: white;
+    width: 40vw;
+    padding-bottom: 6vh;
+}
+
+#Go-prime {
+    width: 25vw;
+    height: 10vh;
+    background: transparent linear-gradient(180deg, #252E3D 0%, #336CAE 100%);
+    border: 2px solid white;
+    color: white;
+    font-family: helvetica;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#Subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 27vh;
+    background: transparent linear-gradient(180deg, #C4D9DE 0%, #90E9F5 100%, #626D6F 100%);
+}
+
+#Subscribe-text {
+    font-family: helvetica;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#Subscribe-button {
+    cursor: pointer;
+    width: 10vw;
+    height: 6vh;
+    background-color:#CF755A;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: white;
+    border: none; 
+    cursor: pointer;
+}
+
+#Footer {
+    height: 57vh;
+    background:  transparent linear-gradient(180deg, #252E3D 0%, #336CAE 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Footer-heading {
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+}
+
+.Footer-text {
+    font-family: helvetica;
+    line-height: 1.6;
+    font-size: 0.7em;
+    color: white;
+}
+
+#Socials-container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 11vh;
+}
+
+#Socials1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+#Socials2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+#Socials3 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+#Socials4 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+#Hamburger {
+    height: 3.7vh;
+    width: 2.4vw;
+    order: 4;
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat:no-repeat;
+    cursor: pointer;
+}
+#Overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    visibility: hidden;
+    height: 8vh;
+    width: 10vw;
+    gap: 20px;
+    font-size: 0.8em;
+    background-color:white;
+    border: solid 1px rgb(168, 168, 168);
+    position: absolute;
+    right: 1%;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 6px;
+    
+}
+
+#Hamburger:hover #Overlay {
+    visibility: visible;
+}
+
+.Links {
+    color: black;
+    text-decoration: none;
+    font-family: helvetica;
+    font-weight: bold;
+    height: 10px;
+    cursor: pointer;
+}
+
+.Links:hover {
+    color:rgb(116, 116, 116);
+}
+
+#Signup-body {
+    background: transparent linear-gradient(180deg, #C4D9DE 0%, #90E9F5 100%, #626D6F 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Signup-container {
+    display: flex;
+    width: 81vw;
+    height: 97vh;
+    background-color: white;
+}
+
+#Create-account {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+}
+
+#Name-input-container {
+    display: flex;
+    gap: 1vw;
+}
+
+.Name-input {
+    width: 14vw;
+    height: 7vh;
+    border: none;
+    background-color: #EDEDED;
+    font-weight: bold;
+    color: black;
+    padding-left: 10px;;
+}
+.Signup-input {
+    width: 30vw;
+    height: 7vh;
+    border: none;
+    background-color: #EDEDED;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#Signup-button {
+    width: 30.5vw;
+    height: 7vh;
+    border: none;
+    background-color: #F19E38;
+    color: white;
+    font-family: helvetica;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align:center;
+    cursor: pointer;
+   
+}
+
+#Signup-socials-container {
+    display: flex;
+    gap: 1vw;
+}
+
+.Socials-button {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    border: none;   
+    cursor: pointer;
+}
+
+.Account-heading {
+    font-family: helvetica;
+    font-size: 5vh;
+    height: 0;
+    text-align:start;
+    width: 30.5vw;
+}
+
+#Already-an-user {
+    width: 30.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-family: helvetica;
+}
+
+#Sign-in-with {
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+#Create-account-pic-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+}
+
+#Create-account-pic {
+    height:58vh;
+    width: 34vw;
+    object-fit: contain;
+}
+
+#Exit {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: 5%; 
+    right: 12%;
+}
+
+#Signin-body {
+    background: transparent linear-gradient(180deg, #252E3D 0%, #336CAE 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#New-user {
+    width: 30.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-family: helvetica;
+    margin-left: 5vw;
+}
+
+.Sign-in {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #CF755A;
+}
+
+.Sign-in-input {
+    width: 25vw;
+    height: 7vh;
+    border: none;
+    background-color: #EDEDED;
+    font-weight: bold;
+}
+
+.Sign-in-input::placeholder {
+    padding-left: 10px;
+}
+
+#Sign-in-account {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+}
+
+
+#Sign-in-account-heading {
+    font-family: helvetica;
+    font-size: 5vh;
+    height: 0;
+    text-align:start;
+    width: 30.5vw;
+    margin-left: 5vw;
+}
+
+#Sign-in-button {
+    width: 25vw;
+    height: 7vh;
+    border: none;
+    background-color: #F19E38;
+    color: white;
+    font-family: helvetica;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#Create-account-pic-container2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+}
+
+#Create-account-pic2 {
+    height:58vh;
+    width: 34vw;
+    object-fit: contain;
+}
+
+#Exit2 {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: 5%; 
+    right: 12%;
+}
+
+#Profile-hero {
+    height:37vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Profile-heading {
+    color: white;
+    font-family: helvetica;
+    height: 0;
+    margin-bottom: 5vh;
+    font-size: 5vh;
+}
+
+#Profile-description {
+    color: white;
+    font-family: helvetica;
+    font-size: 2vh;
+    width: 41vw;
+    text-align: center;
+}
+
+#Profile-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    height: 135vh;
+    background-color: #F2F2F2;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2vw;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 27vw;
+    height: 58vh;
+    cursor: pointer;
+}
+
+.Grid-headings {
+    font-family: helvetica;
+    font-size: 3vh;
+    font-weight: bold;
+    height: 1px;
+    margin-bottom: 20px;
+    margin-block-start: 0;
+}
+#Grid-bag {
+    height: 49vh;
+    width: 27vw;
+    border-radius: 64px;
+    object-fit: cover;
+}
+
+#Grid-settings {
+    height: 49vh;
+    width: 27vw;
+    border-radius: 64px;
+    object-fit: cover;
+}
+
+#Grid-prime {
+    height: 49vh;
+    width: 27vw;
+    border-radius: 64px;
+    object-fit: cover;
+}
+
+#Grid-customer {
+    height: 49vh;
+    width: 27vw;
+    border-radius: 64px;
+    object-fit: cover;
+}
+
+#Grid-payment {
+    height: 49vh;
+    width: 27vw;
+    border-radius: 64px;
+    object-fit: cover;
+}
+
+#Grid-gift {
+    height: 49vh;
+    width: 27vw;
+    border-radius: 64px;
+    object-fit: cover;
+}
+
+#Profile-footer {
+    display: flex;
+    justify-content: center;
+    height: 17vh;
+    background-color: #F2F2F2;
+}
+
+#Sign-out {
+    width: 25vw;
+    height: 10vh;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 3vh;
+    background-color: #F19E38;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1426px) {
+    #Overlay {
+        margin-top: 20px;
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 827px) {
+    #Quote-description2 {
+        font-size: 0.7em;
+    }
+    #Trending-description {
+        font-size: 0.7em;
+    }
+    #Trending-description2 {
+        font-size: 0.7em;
+    }
+    #Deals-description {
+        font-size: 0.7em;
+    }
+    #Spotlight-description {
+        font-size: 0.7em;
+    }
+    #Go-prime {
+        font-size: 1em;
+    }
+    #Overlay {
+        font-size: 0.7em;
+        margin-top: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 701px) {
+    #Hero-quote {
+        font-size: 1.5em;
+    }
+    #Quote-description {
+        font-size: 1em;
+    }
+    #Hero-quote2 {
+        font-size: 1.5em;
+    }
+    .Trending {
+        font-size: 0.6em;
+    }
+    .Trending2 {
+        font-size: 0.6em;
+    }
+    #Deals-title {
+        font-size: 1.5em;
+    }
+    #Spotlight-title {
+        font-size: 1.5em;
+    }
+    #Shopping  {
+        font-size: 0.6em;
+    }
+    #Start-shopping {
+        font-size: 0.6em;
+        margin-top: 0;
+    }
+    #Go-prime {
+        font-size: 0.6em;
+    }
+    #Subscribe-text {
+        font-size: 0.8em;
+    }
+    #Subscribe-button {
+        font-size: 0.4em;
+        padding: 0;
+    }
+    #Magnifying-glass {
+        visibility: hidden;
+    }
+    #Microphone {
+        visibility: hidden;
+    }
+    #Searchbar {
+        text-indent: 10px;
+        height: 5vh;
+        font-size: 0.6em;
+    }
+    .Welcome {
+        font-size: 0.6em;
+    }
+
+    #Trending-category-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .Trending {
+        height: 255vh;
+        display: flex;
+    }
+    .Trending-category {
+        width: 50vw;
+        height: 70vh;  
+        flex-shrink: 0;                    
+    }
+    .Trending-category-image {
+       width: 80%;
+       height: 60vh;
+    }
+    .Trending2 {
+        height: 255vh;
+    }
+    #Circle-container {
+        visibility: hidden;
+    }
+    #View-categories {
+        visibility: visible;
+        margin-top: 850px;
+        cursor: pointer;
+    }
+    #View-products {
+        margin-top: 850px;
+    }
+
+    #Create-account-pic-container {
+        display: none;
+    }
+
+    #Create-account {
+        width: 100%;
+    }
+
+    .Account-heading {
+        font-size: 3vh;
+    }
+
+    #Create-account-pic-container2 {
+        display: none;
+    }
+    
+    #Sign-in-account {
+        width: 100%;
+    }
+
+    #Profile-grid {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        height: 210vh;
+    }
+}
